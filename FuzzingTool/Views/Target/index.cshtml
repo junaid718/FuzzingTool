@@ -2,8 +2,16 @@
     ViewData["Target"] = "Target";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Site Map</h1>
-    <h1 class="display-4">Scope</h1>
-    <h1 class="display-4">Issue Definitions</h1>
-</div>
+ <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+     <ul class="navbar-nav flex-grow-1">
+      <li class="nav-item">
+         <a class="nav-link text-dark" asp-area="" asp-controller="Target" asp-action="IssueDef">Issue Definition</a>
+      </li>
+       <li class="nav-item">
+         <a class="nav-link text-dark" asp-area="" asp-controller="Target" asp-action="Scope">Scope</a>
+       </li>
+       <li class="nav-item">
+          <a class="nav-link text-dark" asp-area="" asp-controller="Target" asp-action="SiteMap">Proxy</a>
+       </li>
+     </ul>               
+ </div>

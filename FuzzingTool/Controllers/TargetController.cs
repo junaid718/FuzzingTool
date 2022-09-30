@@ -8,5 +8,20 @@ namespace FuzzingTool.Controllers
         {
             return View();
         }
+        [Route("/Target/IssueDef")]
+        public IActionResult IssueDef()
+        {
+            return View();
+        }
+        [Route("/Target/Scope")]
+        public IActionResult Scope()
+        {
+            return View();
+        }
+        [Route("/Target/SiteMap")]
+        public IActionResult SiteMap()
+        {
+            return View();
+        }
     }
 }

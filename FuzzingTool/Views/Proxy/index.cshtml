@@ -2,9 +2,16 @@
     ViewData["Proxy"] = "Proxy";
 }
 
-<div class="text-center">
-    <h1 class="display-4">intercept</h1>
-    <h1 class="display-4">HTTP history</h1>
-    <h1 class="display-4">WebSockets history</h1>
-    <h1 class="display-4">Options</h1>
-</div>
+ <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Proxy" asp-action="Intercept">Intercept</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Proxy" asp-action="HisHTTP">HTTP History</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Proxy" asp-action="hisWebSocket">WebSockets History</a>
+                        </li>
+                    </ul>
+                </div>

@@ -8,5 +8,20 @@ namespace FuzzingTool.Controllers
         {
             return View();
         }
+        [Route("/Proxy/HisHTTP")]
+        public IActionResult HisHTTP()
+        {
+            return View();
+        }
+        [Route("/Proxy/hisWebSocket")]
+        public IActionResult hisWebSocket()
+        {
+            return View();
+        }
+        [Route("/Proxy/Intercept")]
+        public IActionResult Intercept()
+        {
+            return View();
+        }
     }
 }
